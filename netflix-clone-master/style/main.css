@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #000;
+}
+
+header .container .logo {
+    color: #e50914;
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    color: aliceblue;
+}
+
+main .jogo-principal {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), url(../img/OW.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.jogo-principal .container {
+    color: white;
+    font-size: 19px;
+    font-family: Helvetica, sans-serif, arial;
+    margin-right: 30%;
+    margin-left: 10px;
+    margin-top: 20%;
+}
+
+.titulo {
+    font-size: 30px;
+    text-shadow: 3px 1px 4px #000;
+}
+
+.jogo-principal .container p {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.escolha {
+    padding-top: 15px;
+    display: flex;
+    color: antiquewhite;
+}
+
+.assistir, .jogar {
+    color: aliceblue;
+    margin-left: 40px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.escolha button {
+    border: 0;
+    cursor: pointer;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: linear-gradient(to top left,rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.escolha button:hover {
+    background-color: rgba(20, 0, 0, 1);
+}
+
+.escolha button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.box-jogos {
+    height: 100%;
+    width: 100%;
+    display: block;
+}

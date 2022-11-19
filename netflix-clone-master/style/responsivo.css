@@ -1,0 +1,31 @@
+@media screen and (max-width: 850px){
+    main .jogo-principal {
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%), url(../img/OW-responsivo.jpg);
+        background-size: initial;
+    }
+
+    .jogo-principal .container {
+        height: 0%;
+    }
+
+    .jogo-principal .container p {
+        min-width: 142%;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    .jogo-principal .container {
+        margin-top: 0;
+    }
+
+    .escolha {
+        justify-content: space-between;
+        margin-left: 15%;
+    }
+}

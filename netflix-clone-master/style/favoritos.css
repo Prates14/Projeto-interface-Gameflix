@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #000;
+}
+
+header .container .logo {
+    color: #e50914;
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    color: aliceblue;
+}
+
+main .pagina {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-size: 250%;
+    color: floralwhite;
+    font-style: italic;
+    text-shadow: 3px 4px 3px #000;
+    padding-bottom: 3%;
+}
+
+.aviso {
+    color: rgba(170, 170, 170, 0.514);
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 200%;
+}
